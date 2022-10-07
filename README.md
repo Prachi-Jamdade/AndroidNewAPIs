@@ -1,5 +1,5 @@
 # AndroidNewAPIs
-Exploring New android APIs
+##Exploring New android APIs
 
 Starting in Android 12, the launch animation for all apps when running on a device with Android 12 or higher. This includes an into-app motion at launch, a splash screen showing your app icon, and a transition to your app itself.
 
