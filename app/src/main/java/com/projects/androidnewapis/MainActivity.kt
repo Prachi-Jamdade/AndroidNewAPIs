@@ -28,18 +28,18 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         // Uncomment this lines to see splash screen
-        installSplashScreen().apply {
-            setKeepOnScreenCondition {
-                viewModel.isLoading.value
-            }
-        }
+//        installSplashScreen().apply {
+//            setKeepOnScreenCondition {
+//                viewModel.isLoading.value
+//            }
+//        }
 
         setContent {
-            WelcomeSplash()
+//            WelcomeSplash()
             DisplayRationale()
-            ShowNotificationUI {
-                showNotification()
-            }
+//            ShowNotificationUI {
+//                showNotification()
+//            }
         }
     }
 
