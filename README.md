@@ -70,7 +70,7 @@ If the user swipes away from the dialog—that is, they don't select either allo
 
 Click here to know effects of this runtime notification on apps - https://developer.android.com/develop/ui/views/notifications/notification-permission
 
-# Jetpack Compose Permissions
+# 3. Jetpack Compose Permissions
 
 A library which provides Android runtime permissions support for Jetpack Compose.
 
@@ -85,3 +85,7 @@ The ```rememberPermissionState(permission: String)``` API allows you to request 
 Both APIs expose properties for you to follow the workflow as described in the permissions documentation.
 
 🛑 Caution: The call to the method that requests the permission to the user (e.g. ```PermissionState.launchPermissionRequest()```) needs to be invoked from a non-composable scope. For example, from a side-effect or from a non-composable callback such as a Button's ```onClick``` lambda.
+
+Visit here for more info - https://google.github.io/accompanist/permissions/
+
+
