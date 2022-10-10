@@ -35,7 +35,7 @@ If you continue to target 12L (API level 32) or lower, you lose some flexibility
 
 The permission that you need to declare in your app's manifest file appears in the following code snippet:
 
-```
+```xml
 <manifest ...>
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
     <application ...>

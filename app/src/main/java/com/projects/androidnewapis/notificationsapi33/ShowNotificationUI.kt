@@ -58,7 +58,7 @@ fun ShowNotificationUI(showButtonOnClick: () -> Unit) {
 
         Button(onClick = {
             if(hasNotificationPermission) {
-                showButtonOnClick
+                showButtonOnClick()
             }
         }) {
             Text(text = "Show Notification")
