@@ -36,10 +36,10 @@ class MainActivity : ComponentActivity() {
 
         setContent {
 //            WelcomeSplash()
-            DisplayRationale()
-//            ShowNotificationUI {
-//                showNotification()
-//            }
+//            DisplayRationale()
+            ShowNotificationUI {
+                showNotification()
+            }
         }
     }
 
